@@ -1,7 +1,8 @@
-# Registro de crédito — Novia
+# Registro de crédito — Garcia Segura Ariadana Jazmin
 
 Proyecto del **Solana Engineering Track: Advanced** (WayLearn). Registro de clientes y ventas con PDAs en Devnet, frontend React/Vite y cliente TypeScript generado por Codama desde el IDL.
 
+- **Participante para el certificado:** `Garcia Segura Ariadana Jazmin`
 - **Repo:** `https://github.com/EGNIS2915/registro-ventas-credito`
 - **Negocio usado en la app:** `Cafe Credito Novia`
 - **Program ID:** `PENDIENTE` (se obtiene al hacer Deploy en Solana Playground)

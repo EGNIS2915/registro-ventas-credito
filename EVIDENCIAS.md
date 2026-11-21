@@ -1,6 +1,6 @@
-# Evidencias — Registro de crédito (Novia)
+# Evidencias — Registro de crédito (Garcia Segura Ariadana Jazmin)
 
-Programa: `PENDIENTE` · Repo: `https://github.com/EGNIS2915/registro-ventas-credito` · Red: **Devnet**
+Programa: `PENDIENTE` · Repo: `https://github.com/EGNIS2915/registro-ventas-credito` · Red: **Devnet** · Participante: `Garcia Segura Ariadana Jazmin`
 
 Cada firma se verifica en `https://explorer.solana.com/tx/<FIRMA>?cluster=devnet`.
 Sustituir `[PENDIENTE]` por la firma real antes de entregar. No capturar claves privadas.
