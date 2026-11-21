@@ -44,7 +44,7 @@ npm run dev
 
 ## Despliegue y entrega
 
-1. En Solana Playground: pegar `programa/src/lib.rs`, `Build`, `Deploy` en Devnet y copiar el **Program ID**.
+1. En Solana Playground: pegar `programa/src/lib.rs`, conservar la línea `declare_id!` que te da Playground (el `declare_id!("")` del repo es solo marcador), `Build`, `Deploy` en Devnet y copiar el **Program ID**.
 2. Exportar el IDL del programa y guardarlo localmente, por ejemplo `C:\Users\pilia\Downloads\credito_idl.json`.
 3. Importarlo y regenerar el cliente:
 
