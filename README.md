@@ -2,7 +2,8 @@
 
 Proyecto del **Solana Engineering Track: Advanced** (WayLearn). Registro de clientes y ventas con PDAs en Devnet, frontend React/Vite y cliente TypeScript generado por Codama desde el IDL.
 
-- **Participante para el certificado:** `Garcia Segura Ariadna Jazmin`
+- **Participante para el certificado:** `Garcia Segura Ariadna Jazmin` · `jazmin.segura.18.a@gmail.com`
+- **Ruta elegida:** proyecto guiado con una mejora funcional
 - **Repo:** `https://github.com/EGNIS2915/registro-ventas-credito`
 - **Negocio usado en la app:** `Cafe Credito Novia`
 - **Program ID:** `9B1mFDVdpxyTbk1h25b4bB5puwZCm1DYJrLwuUxndFkC` (Devnet)
