@@ -2,6 +2,7 @@
   "name": "registro-ventas-solana-app",
   "private": true,
   "version": "0.1.0",
+  "participante": "Garcia Segura Ariadna Jazmin",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,6 +17,7 @@
     "clase:resuelto": "node scripts/preparar-clase.mjs resuelto",
     "verificar": "npm run typecheck && npm test && npm run build",
     "comprobar:idl": "node scripts/verificar-contrato.mjs",
+    "verificar:entrega": "node scripts/verificar-entrega.mjs",
     "prebuild": "npm run comprobar:idl",
     "predev": "npm run comprobar:idl"
   },

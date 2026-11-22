@@ -5,8 +5,8 @@ Proyecto del **Solana Engineering Track: Advanced** (WayLearn). Registro de clie
 - **Participante para el certificado:** `Garcia Segura Ariadna Jazmin`
 - **Repo:** `https://github.com/EGNIS2915/registro-ventas-credito`
 - **Negocio usado en la app:** `Cafe Credito Novia`
-- **Program ID:** `PENDIENTE` (se obtiene al hacer Deploy en Solana Playground)
-- **IDL entregado:** `idl.json` (actualmente de desarrollo; reemplazar por el exportado del despliegue)
+- **Program ID:** `9B1mFDVdpxyTbk1h25b4bB5puwZCm1DYJrLwuUxndFkC` (Devnet)
+- **IDL entregado:** `idl.json` (alineado con el Program ID del despliegue)
 - **Evidencias:** [`EVIDENCIAS.md`](./EVIDENCIAS.md)
 
 ## Mejora funcional: control de crédito por cliente
@@ -58,3 +58,18 @@ npm run verificar
 5. Subir este repo a `main` y enviar el formulario final con el enlace del repo y el Program ID.
 
 No incluir claves privadas ni `keypair.json` en el repo. Las capturas deben mostrar direcciones públicas y firmas, nunca semillas.
+
+## Arquitectura y defensa
+
+En [`docs/ARQUITECTURA.md`](./docs/ARQUITECTURA.md) están las PDAs y seeds, las reglas de autoridad y pertenencia, la tabla de errores 6000–6007, la explicación del aporte funcional y un guion de demo de 60 segundos. Es la referencia para explicar el proyecto en la revisión y en el hackathon.
+
+## Gate de entrega
+
+Antes de entregar ejecuta:
+
+```powershell
+npm run verificar
+npm run verificar:entrega
+```
+
+`verificar:entrega` comprueba que el IDL ya no sea el de referencia, que el Program ID y `idl.json` coincidan, que el README tenga el nombre para el certificado y que `EVIDENCIAS.md` no contenga marcadores y tenga al menos 6 firmas válidas. Falla a propósito mientras falte el despliegue o las firmas.

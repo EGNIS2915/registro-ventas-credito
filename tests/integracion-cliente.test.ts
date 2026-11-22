@@ -123,6 +123,7 @@ test('la mejora de credito serializa limiteCredito y conserva el contrato base',
     accounts: { name: string; type: { fields: { name: string }[] } }[];
   };
   const camposCliente = contrato.accounts.find((cuenta) => cuenta.name === 'Cliente')!.type.fields.map((campo) => campo.name);
-  assert.equal(validarIdl(idl).programId, REFERENCIA_ID);
+  assert.equal(validarIdl(idl).programId, idl.metadata.address);
+  assert.notEqual(validarIdl(idl).programId, REFERENCIA_ID);
   assert.ok(camposCliente.includes('limiteCredito'));
 });
